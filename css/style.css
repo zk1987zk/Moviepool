@@ -1,0 +1,101 @@
+/*style for the contents*/
+
+.slideshow{
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    min-height: 420px;
+    width: 1000px;
+    border-bottom: 5px solid #007bff;
+}
+
+.content{
+    margin-top: 55px;
+    margin-left:auto;
+    margin-right: auto;
+    min-height: 420px;
+    width: 1000px;
+}
+
+#title{
+    font-family: 'Francois One', sans-serif;
+    color:#007bff;
+}
+
+.myprev, .mynext{
+    cursor: pointer;
+    position: absolute;
+    margin-top: -1480px; 
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 12px;
+    margin-left: 900px;
+    transition: 0.6s ease;
+}
+
+.mynext{
+    margin-left: 950px;
+}
+
+.myprev:hover, .mynext:hover {
+  background-color: #007bff;
+}
+
+.nav-link:hover, .nav-link:active{
+    border-radius: 5px;
+    background-color: #6b6c6c;
+    text-decoration:none;
+}
+
+
+#current{
+    font-weight: bold;
+}
+
+
+/*end of style for the contents*/
+
+/*style used in the movie.php*/
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.leftcolumn {
+    border-bottom: 1px solid #bcc1c6;
+    float: left;
+    width: 15%;
+    padding: 10px;
+    height: 200px;
+    margin-top: 10px black; /* Should be removed. Only for demonstration */
+}
+.rightcolumn {
+    border-bottom: 1px solid #bcc1c6;
+    float: right;
+    width: 85%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.jumbotron {
+    margin-top: 70px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#admin_function ul{
+    list-style-type:none;
+}
+
+#admin_function ul li{
+    display:inline;
+font-size:20px;
+}
+
+
+
+/*end of the style used in the movie.php*/
